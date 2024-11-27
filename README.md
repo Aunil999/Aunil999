@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @Aunil999
-- 👀 I’m interested in coading
-- 🌱 I’m currently learning JS,Python
+- 👋 Hi, I’m @Aunil999.I'm a frontend developer who is currently learning Python.
+You can reach me Instagram-Aunil.09
 
-- 📫 How to reach me Instagram-Aunil.09
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: None
 
 <!---
 Aunil999/Aunil999 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
