@@ -1,0 +1,46 @@
+v<!DOCTYPE html>
+<html>
+<head>
+    <title>Login form </title>
+
+    <style>
+        .img{
+            width:280px;}
+            body {font-family: Arial, Helvetica, sans-serif;
+                padding-left: 390px;
+                padding-right: 390px}
+form {border: 3px solid black;
+}
+
+    </style>
+</head>
+<body>
+    <center>
+    <img class="img" src="C:\Users\LENOVO\Downloads\aunil.webp">
+ <form >
+    Enter your Firstname:<input type="tetx" name="username" required><br>
+    Enter your lastname:<input type="tetx" name="username" required><br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+             
+                      <button onclick="myfunction()">Submit</button>
+        </form>
+    </center>
+    <script>
+     function myfunction(){
+            var passwor = document.getElementById("password");
+            var confirmPasswor = document.getElementById("confirmPassword");
+
+            if (passwor !== confirmPasswor) {
+               alert("incorrect password")
+         
+            } else {
+                alert("correct password")
+        }
+    </script>
+</body>
+</html>
